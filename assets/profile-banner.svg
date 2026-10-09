@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="330" viewBox="0 0 1280 330" role="img" aria-labelledby="title desc">
+  <title id="title">Artem Shelenko — C++ Software Engineer</title>
+  <desc id="desc">Midnight-blue banner with circuit illustration and Build, Measure, Improve motto.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a1224"/>
+      <stop offset="0.6" stop-color="#0e1d30"/>
+      <stop offset="1" stop-color="#091929"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#38bdf8"/>
+      <stop offset="1" stop-color="#34d399"/>
+    </linearGradient>
+    <pattern id="grid" width="38" height="38" patternUnits="userSpaceOnUse">
+      <path d="M38 0H0V38" fill="none" stroke="#86a3bd" stroke-width="0.65" opacity="0.12"/>
+    </pattern>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="13" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect x="0" y="0" width="1280" height="330" rx="20" fill="url(#bg)" />
+  <rect x="0" y="0" width="1280" height="330" rx="20" fill="url(#grid)" />
+  <rect x="0.75" y="0.75" width="1278.5" height="328.5" rx="19" fill="none" stroke="#35546a" stroke-width="1.5" opacity="0.7"/>
+  <path d="M48 57H115" stroke="url(#line)" stroke-width="4" stroke-linecap="round"/>
+  <text x="129" y="63" fill="#9bb3c9" font-size="19" font-family="DejaVu Sans, Arial, sans-serif" letter-spacing="3">ENGINEER / BUILDER</text>
+  <text x="48" y="145" fill="#f1f7fc" font-size="64" font-weight="700" font-family="DejaVu Sans, Arial, sans-serif" letter-spacing="1">ARTEM SHELENKO</text>
+  <text x="50" y="193" fill="#54d6c8" font-size="24" font-weight="600" font-family="DejaVu Sans, Arial, sans-serif" letter-spacing="3">C++ SOFTWARE ENGINEER</text>
+  <text x="50" y="266" fill="#b8cad9" font-size="20" font-family="DejaVu Sans, Arial, sans-serif" letter-spacing="1.2">BUILD  /  MEASURE  /  IMPROVE</text>
+  <path d="M48 289H686" stroke="#7898ad" stroke-width="1" opacity="0.35" />
+  <g transform="translate(963,163)">
+    <circle r="132" fill="#20c4bc" opacity="0.05" filter="url(#glow)" />
+    <circle r="108" fill="none" stroke="#61a9b2" stroke-width="1.5" stroke-dasharray="3 9" opacity="0.32"/>
+    <circle r="73" fill="none" stroke="#427891" stroke-width="1.5" opacity="0.55"/>
+    <rect x="-43" y="-43" width="86" height="86" rx="12" fill="#0e2d3b" stroke="#55d5c7" stroke-width="2" />
+    <rect x="-26" y="-26" width="52" height="52" rx="6" fill="#103a49" stroke="#69e0c2" stroke-width="1.3"/>
+    <text x="0" y="8" fill="#effffb" text-anchor="middle" font-size="23" font-weight="700" font-family="DejaVu Sans, Arial, sans-serif">C++</text>
+    <path d="M-43 -26H-73V-66H-116 M43 -26H81V-72H119 M-43 27H-77V71H-120 M43 27H72V85H113" stroke="url(#line)" stroke-width="2" fill="none" opacity="0.8" />
+    <path d="M-22 -43V-70H-45V-102 M22 -43V-77H42V-116 M-22 43V78H-40V108 M22 43V66H54V116" stroke="url(#line)" stroke-width="2" fill="none" opacity="0.8" />
+    <g fill="#4de0c5">
+      <circle cx="-116" cy="-66" r="5"/><circle cx="119" cy="-72" r="5"/>
+      <circle cx="-120" cy="71" r="5"/><circle cx="113" cy="85" r="5"/>
+      <circle cx="-45" cy="-102" r="4"/><circle cx="42" cy="-116" r="4"/>
+      <circle cx="-40" cy="108" r="4"/><circle cx="54" cy="116" r="4"/>
+    </g>
+  </g>
+  <text x="1225" y="297" text-anchor="end" fill="#67899d" font-size="13" font-family="DejaVu Sans, Arial, sans-serif" letter-spacing="1.5">ORURH / GITHUB</text>
+</svg>
