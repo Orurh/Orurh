@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="680" viewBox="0 0 960 680" role="img" aria-label="Courier Platform: HTTP API, asynchronous events, reliable persistence.">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fbfdff"/><stop offset="1" stop-color="#edf5ff"/></linearGradient><linearGradient id="blue" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#276bf2"/><stop offset="1" stop-color="#40a3f8"/></linearGradient><filter id="shadow" x="-20%" y="-20%" width="150%" height="160%"><feDropShadow dx="0" dy="6" stdDeviation="7" flood-color="#193a6b" flood-opacity=".13"/></filter><marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#2876ec"/></marker></defs>
+<rect width="960" height="680" rx="18" fill="url(#bg)"/>
+<g stroke="#2d7bed" fill="none" opacity=".16"><path d="M0 90Q150 -40 350 80T720 60T960 0"/><path d="M0 110Q150 -20 350 100T720 80T960 20"/><path d="M0 130Q150 0 350 120T720 100T960 40"/></g>
+<text x="50" y="72" font-size="17" font-family="Arial,DejaVu Sans,sans-serif" letter-spacing="2.7" font-weight="700" fill="#3479dd">DISTRIBUTED BACKEND</text>
+<text x="50" y="151" font-size="64" font-family="Arial,DejaVu Sans,sans-serif" font-weight="700" fill="#091c42">Courier Platform</text>
+<text x="50" y="194" font-size="23" font-family="Arial,DejaVu Sans,sans-serif" fill="#455b79">HTTP API, asynchronous events, reliable persistence.</text>
+
+<g filter="url(#shadow)"><rect x="46" y="287" width="228" height="210" rx="21" fill="white" stroke="#c4d7ed" stroke-width="2"/><rect x="356" y="287" width="248" height="210" rx="21" fill="white" stroke="#4e91f5" stroke-width="3"/><rect x="686" y="287" width="228" height="210" rx="21" fill="white" stroke="#c4d7ed" stroke-width="2"/></g>
+<g font-family="Arial,sans-serif" text-anchor="middle"><text x="160" y="356" font-size="30" fill="#09244c" font-weight="700">HTTP API</text><text x="160" y="398" font-size="21" fill="#567493">service-courier</text><text x="480" y="355" font-size="30" fill="#09244c" font-weight="700">KAFKA</text><text x="480" y="397" font-size="20" fill="#567493">order events</text><text x="800" y="355" font-size="28" fill="#09244c" font-weight="700">WORKER</text><text x="800" y="396" font-size="20" fill="#567493">event processing</text></g>
+<path d="M274 391H344M604 391H674" stroke="#2876ec" stroke-width="5" fill="none" marker-end="url(#arr)"/>
+<rect x="349" y="538" width="261" height="49" rx="13" fill="#e5f0ff" stroke="#a9c9f5" stroke-width="2"/><text x="480" y="571" text-anchor="middle" font-size="22" fill="#184479" font-weight="700" font-family="Arial,sans-serif">PostgreSQL</text>
+<path d="M160 500V563H340M800 500V563H618" fill="none" stroke="#609cef" stroke-width="3" stroke-dasharray="9 9" marker-end="url(#arr)"/>
+
+<path d="M50 614H910" stroke="#c5d9f4" stroke-width="2"/>
+<text x="50" y="648" font-size="18" font-family="Arial,DejaVu Sans,sans-serif" fill="#647c9b">ORURH / ENGINEERING PROJECTS</text>
+<circle cx="895" cy="640" r="8" fill="#377ef1"/>
+</svg>

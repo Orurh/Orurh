@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="680" viewBox="0 0 960 680" role="img" aria-labelledby="title desc">
+<title id="title">Causal-SLAM — temporal integrity before sensor fusion</title>
+<desc id="desc">Currently implemented temporal checks for LiDAR, IMU and TF feed a temporal integrity layer before SLAM. Radar and GNSS are illustrated as possible future sensor extensions, not existing implementations.</desc>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fbfdff"/><stop offset="1" stop-color="#edf5ff"/></linearGradient>
+<linearGradient id="core" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#e8f4ff"/><stop offset="1" stop-color="#f6fbff"/></linearGradient>
+<marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#2978ea"/></marker>
+<filter id="shadow" x="-20%" y="-20%" width="150%" height="160%"><feDropShadow dx="0" dy="5" stdDeviation="7" flood-color="#193a6b" flood-opacity=".13"/></filter>
+</defs>
+<rect width="960" height="680" rx="18" fill="url(#bg)"/>
+<g fill="none" stroke="#327de9" opacity=".13"><path d="M0 85Q145 -35 350 80T715 50T960 10"/><path d="M0 107Q145 -13 350 102T715 72T960 32"/><path d="M0 129Q145 9 350 124T715 94T960 54"/></g>
+<text x="50" y="72" font-size="17" letter-spacing="2.7" font-weight="700" fill="#3479dd" font-family="Arial,DejaVu Sans,sans-serif">MULTI-SENSOR TIMING / ROBOTICS</text>
+<text x="50" y="151" font-size="64" font-weight="700" fill="#091c42" font-family="Arial,DejaVu Sans,sans-serif">Causal-SLAM</text>
+<text x="50" y="194" font-size="23" fill="#455b79" font-family="Arial,DejaVu Sans,sans-serif">Are sensor measurements temporally compatible?</text>
+<g filter="url(#shadow)">
+<rect x="50" y="267" width="246" height="234" rx="18" fill="white" stroke="#b9d1ea" stroke-width="2"/>
+<rect x="364" y="276" width="302" height="235" rx="21" fill="url(#core)" stroke="#4f95ef" stroke-width="3"/>
+<rect x="723" y="326" width="194" height="119" rx="16" fill="white" stroke="#b9d1ea" stroke-width="2"/>
+</g>
+<text x="173" y="299" text-anchor="middle" fill="#3674be" font-weight="700" font-size="18" letter-spacing="2" font-family="Arial,sans-serif">CURRENT INPUTS</text>
+<g fill="#eaf3ff" stroke="#d2e5fa">
+<rect x="67" y="316" width="212" height="48" rx="9"/><rect x="67" y="373" width="212" height="48" rx="9"/><rect x="67" y="430" width="212" height="48" rx="9"/>
+</g>
+<g fill="#102c52" font-family="Arial,sans-serif" font-weight="700" font-size="25" text-anchor="middle">
+<text x="173" y="347">LiDAR</text><text x="173" y="404">IMU</text><text x="173" y="461">TF / Time</text>
+</g>
+<g stroke="#2776e6" stroke-width="4" fill="none"><path d="M296 382H349" marker-end="url(#arrow)"/><path d="M666 390H710" marker-end="url(#arrow)"/></g>
+<circle cx="515" cy="332" r="25" fill="none" stroke="#357ddd" stroke-width="3"/><path d="M515 319V335L527 341" stroke="#357ddd" stroke-width="3" fill="none" stroke-linecap="round"/>
+<text x="515" y="394" text-anchor="middle" fill="#0a2855" font-family="Arial,sans-serif" font-weight="700" font-size="30">Temporal</text>
+<text x="515" y="429" text-anchor="middle" fill="#0a2855" font-family="Arial,sans-serif" font-weight="700" font-size="30">Integrity Layer</text>
+<text x="515" y="469" text-anchor="middle" fill="#366896" font-family="Arial,sans-serif" font-size="20">gaps · coverage · jitter</text>
+<text x="820" y="378" text-anchor="middle" fill="#0a2855" font-family="Arial,sans-serif" font-weight="700" font-size="25">SLAM / LIO</text>
+<text x="820" y="410" text-anchor="middle" fill="#507298" font-family="Arial,sans-serif" font-size="18">checked input</text>
+<rect x="50" y="530" width="246" height="57" rx="13" fill="#f6f9fd" stroke="#93abc8" stroke-width="2" stroke-dasharray="7 6"/>
+<text x="173" y="551" text-anchor="middle" fill="#5d7694" font-family="Arial,sans-serif" font-size="16" font-weight="700">POSSIBLE EXTENSIONS</text>
+<text x="173" y="575" text-anchor="middle" fill="#4d6382" font-family="Arial,sans-serif" font-size="21">Radar · GNSS</text>
+<path d="M296 558H329Q344 558 344 540V477H350" stroke="#8ca6c6" stroke-width="2.5" stroke-dasharray="6 6" fill="none"/>
+<path d="M50 614H910" stroke="#c5d9f4" stroke-width="2"/>
+<text x="50" y="648" font-size="18" font-family="Arial,DejaVu Sans,sans-serif" fill="#647c9b">ORURH / ENGINEERING PROJECTS</text>
+<circle cx="895" cy="640" r="8" fill="#377ef1"/>
+</svg>

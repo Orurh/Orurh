@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="680" viewBox="0 0 960 680" role="img" aria-labelledby="title desc">
+<title id="title">PatchCourt — architecture impact of a C++ patch</title><desc id="desc">Compare architectural dependency edges before and after a code patch. Distinguish introduced risk, removed risk, and existing technical debt.</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#fbfdff"/><stop offset="1" stop-color="#edf5ff"/></linearGradient><filter id="shade" x="-15%" y="-15%" width="145%" height="150%"><feDropShadow dx="0" dy="6" stdDeviation="7" flood-color="#173858" flood-opacity=".12"/></filter><marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#327de2"/></marker></defs>
+<rect width="960" height="680" rx="18" fill="url(#bg)"/>
+<text x="49" y="71" fill="#3879d5" font-size="18" letter-spacing="2.5" font-weight="700" font-family="Arial,sans-serif">DIFF-AWARE ARCHITECTURE REVIEW</text>
+<text x="49" y="151" fill="#0c2348" font-size="64" font-weight="700" font-family="Arial,sans-serif">PatchCourt</text>
+<text x="49" y="195" fill="#445a77" font-size="23" font-family="Arial,sans-serif">What did this patch change in the architecture?</text>
+<g filter="url(#shade)" fill="#fff" stroke="#c6d9ea" stroke-width="2"><rect x="49" y="257" rx="18" width="328" height="272"/><rect x="584" y="257" rx="18" width="328" height="272"/></g>
+<g font-family="Arial,sans-serif" text-anchor="middle" fill="#16335b" font-size="24" font-weight="700"><text x="213" y="293">BEFORE</text><text x="748" y="293">AFTER PATCH</text></g>
+<!-- left graph -->
+<g font-family="Arial,sans-serif" font-size="16" text-anchor="middle" font-weight="700">
+<rect x="78" y="338" width="112" height="52" rx="10" fill="#e2eeff" stroke="#8fb9ef"/><text x="134" y="370" fill="#204d82">API</text>
+<rect x="229" y="338" width="114" height="52" rx="10" fill="#e2eeff" stroke="#8fb9ef"/><text x="286" y="370" fill="#204d82">Domain</text>
+<rect x="156" y="441" width="112" height="52" rx="10" fill="#f1f4f8" stroke="#b5c5d8"/><text x="212" y="472" fill="#47617e">Legacy</text>
+<rect x="613" y="338" width="112" height="52" rx="10" fill="#e2eeff" stroke="#8fb9ef"/><text x="669" y="370" fill="#204d82">API</text>
+<rect x="765" y="338" width="114" height="52" rx="10" fill="#e2eeff" stroke="#8fb9ef"/><text x="822" y="370" fill="#204d82">Domain</text>
+<rect x="690" y="441" width="112" height="52" rx="10" fill="#f1f4f8" stroke="#b5c5d8"/><text x="746" y="472" fill="#47617e">Legacy</text></g>
+<path d="M191 364H224" stroke="#718eaa" stroke-width="4" fill="none"/>
+<path d="M285 392L246 438" stroke="#b2bbca" stroke-width="4" stroke-dasharray="7 6" fill="none"/>
+<path d="M726 364H761" stroke="#718eaa" stroke-width="4" fill="none"/>
+<path d="M821 392L786 438" stroke="#b2bbca" stroke-width="4" stroke-dasharray="7 6" fill="none"/>
+<path d="M663 392L704 439" stroke="#dd5b58" stroke-width="7" fill="none"/>
+<circle cx="661" cy="414" r="8" fill="#dd5b58"/><text x="596" y="430" fill="#c04745" font-size="17" font-weight="700" font-family="Arial,sans-serif">NEW</text>
+<path d="M394 390H561" stroke="#327de2" stroke-width="5" marker-end="url(#arr)"/>
+<rect x="431" y="348" width="98" height="31" rx="8" fill="#e5efff"/><text x="480" y="369" text-anchor="middle" fill="#2d67b8" font-size="16" font-weight="700" font-family="Arial,sans-serif">git diff</text>
+<g font-family="Arial,sans-serif" font-size="19" font-weight="700"><circle cx="73" cy="576" r="9" fill="#de655e"/><text x="93" y="583" fill="#b64641">New risk</text><circle cx="284" cy="576" r="9" fill="#3da67a"/><text x="304" y="583" fill="#2b8660">Improvement</text><circle cx="544" cy="576" r="9" fill="#9baab9"/><text x="564" y="583" fill="#60758c">Existing debt</text></g>
+<path d="M49 613H911" stroke="#c4d9ee" stroke-width="2"/><text x="49" y="648" font-size="18" font-family="Arial,sans-serif" fill="#667f9b">ORURH / ENGINEERING PROJECTS</text><circle cx="894" cy="640" r="8" fill="#377ef1"/>
+</svg>
