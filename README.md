@@ -22,15 +22,15 @@ A few engineering projects that reflect different parts of my work — from sens
   <tr>
     <td width="50%" valign="top">
       <a href="https://github.com/Orurh/Causal_SLAM">
-        <img src="./assets/causal-slam-card.svg" width="100%" alt="Causal-SLAM: LiDAR, IMU and TF through a temporal integrity layer before SLAM." />
+        <img src="./assets/causal-slam-card.svg" width="100%" alt="Causal-SLAM: multi-sensor temporal integrity, currently LiDAR, IMU and TF; Radar and GNSS as possible future extensions." />
       </a>
       <p><b><a href="https://github.com/Orurh/Causal_SLAM">Causal-SLAM ↗</a></b><br/>
-      Experimental sensor-timing diagnostics and gating for LiDAR/IMU SLAM. <br/>
+      Multi-sensor temporal integrity concept; current LiDAR/IMU checks before SLAM fusion. <br/>
       <sub>C++17 · ROS 2 · Robotics</sub></p>
     </td>
     <td width="50%" valign="top">
       <a href="https://github.com/Orurh/PatchCourt">
-        <img src="./assets/patchcourt-card.svg" width="100%" alt="PatchCourt: analyze architectural impact before and after a C++ patch." />
+        <img src="./assets/patchcourt-card.svg" width="100%" alt="PatchCourt: compare architecture before and after a code diff, identifying new risk, improvements and existing debt." />
       </a>
       <p><b><a href="https://github.com/Orurh/PatchCourt">PatchCourt ↗</a></b><br/>
       Diff-aware architecture review that separates new risk from legacy debt.<br/>
