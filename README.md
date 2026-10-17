@@ -16,11 +16,46 @@ I like learning new technologies and domains, whether the challenge comes from r
 
 ### Selected projects
 
-| Project | What it does |
-| --- | --- |
-| **[PatchCourt](https://github.com/Orurh/PatchCourt)** | Diff-aware architecture review for C++ projects. Separates new risks from existing technical debt and generates evidence-based review artifacts and SARIF. **Go · C++ architecture · Tooling** |
-| **[Causal-SLAM](https://github.com/Orurh/Causal_SLAM)** | Experimental temporal integrity diagnostics for LiDAR/IMU SLAM pipelines. Checks timing and sensor compatibility before downstream fusion. **C++17 · ROS 2 · Robotics** |
-| **[Courier Platform](https://github.com/Orurh/Service-courier-platform-go)** | HTTP API and Kafka-backed worker for delivery management, with PostgreSQL, metrics, tests, and CI. **Go · Kafka · PostgreSQL** |
+A few engineering projects that reflect different parts of my work — from sensor pipelines to software architecture and reliable backend systems.
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/Orurh/Causal_SLAM">
+        <img src="./assets/causal-slam-card.svg" width="100%" alt="Causal-SLAM: LiDAR, IMU and TF through a temporal integrity layer before SLAM." />
+      </a>
+      <p><b><a href="https://github.com/Orurh/Causal_SLAM">Causal-SLAM ↗</a></b><br/>
+      Experimental sensor-timing diagnostics and gating for LiDAR/IMU SLAM. <br/>
+      <sub>C++17 · ROS 2 · Robotics</sub></p>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/Orurh/PatchCourt">
+        <img src="./assets/patchcourt-card.svg" width="100%" alt="PatchCourt: analyze architectural impact before and after a C++ patch." />
+      </a>
+      <p><b><a href="https://github.com/Orurh/PatchCourt">PatchCourt ↗</a></b><br/>
+      Diff-aware architecture review that separates new risk from legacy debt.<br/>
+      <sub>Go · C++ tooling · SARIF</sub></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/Orurh/botguard_mvp">
+        <img src="./assets/botguard-card.svg" width="100%" alt="BotGuard: strategy, risk checks, durable state and venue reconciliation." />
+      </a>
+      <p><b><a href="https://github.com/Orurh/botguard_mvp">BotGuard ↗</a></b><br/>
+      Crash-safe execution guard with idempotency and durable recovery.<br/>
+      <sub>C++23 · SQLite · Linux IPC</sub></p>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/Orurh/Service-courier-platform-go">
+        <img src="./assets/courier-card.svg" width="100%" alt="Courier Platform: HTTP API, Kafka event pipeline, worker and PostgreSQL." />
+      </a>
+      <p><b><a href="https://github.com/Orurh/Service-courier-platform-go">Courier Platform ↗</a></b><br/>
+      Delivery-management HTTP API with an independent Kafka worker.<br/>
+      <sub>Go · Kafka · PostgreSQL</sub></p>
+    </td>
+  </tr>
+</table>
 
 ### Engineering highlights
 
