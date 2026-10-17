@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="680" viewBox="0 0 960 680" role="img" aria-label="BotGuard: Safe order execution, even when responses are lost.">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fbfdff"/><stop offset="1" stop-color="#edf5ff"/></linearGradient><linearGradient id="blue" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#276bf2"/><stop offset="1" stop-color="#40a3f8"/></linearGradient><filter id="shadow" x="-20%" y="-20%" width="150%" height="160%"><feDropShadow dx="0" dy="6" stdDeviation="7" flood-color="#193a6b" flood-opacity=".13"/></filter><marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#2876ec"/></marker></defs>
+<rect width="960" height="680" rx="18" fill="url(#bg)"/>
+<g stroke="#2d7bed" fill="none" opacity=".16"><path d="M0 90Q150 -40 350 80T720 60T960 0"/><path d="M0 110Q150 -20 350 100T720 80T960 20"/><path d="M0 130Q150 0 350 120T720 100T960 40"/></g>
+<text x="50" y="72" font-size="17" font-family="Arial,DejaVu Sans,sans-serif" letter-spacing="2.7" font-weight="700" fill="#3479dd">SYSTEMS / RELIABILITY</text>
+<text x="50" y="151" font-size="64" font-family="Arial,DejaVu Sans,sans-serif" font-weight="700" fill="#091c42">BotGuard</text>
+<text x="50" y="194" font-size="23" font-family="Arial,DejaVu Sans,sans-serif" fill="#455b79">Safe order execution, even when responses are lost.</text>
+
+<g filter="url(#shadow)"><rect x="50" y="299" width="218" height="155" rx="20" fill="white" stroke="#c4d7ed" stroke-width="2"/><rect x="350" y="259" width="270" height="238" rx="21" fill="white" stroke="#5c9df6" stroke-width="3"/><rect x="704" y="299" width="206" height="155" rx="20" fill="white" stroke="#c4d7ed" stroke-width="2"/></g>
+<g fill="#0b2956" font-family="Arial,sans-serif" text-anchor="middle"><text x="159" y="368" font-size="29" font-weight="700">STRATEGY</text><text x="804" y="368" font-size="29" font-weight="700">VENUE</text><text x="485" y="316" font-size="32" font-weight="700">BOTGUARD</text></g>
+<g fill="#59708c" font-family="Arial,sans-serif" font-size="21" text-anchor="middle"><text x="159" y="409">submit intent</text><text x="804" y="409">exchange / demo</text></g>
+<g font-family="Arial,sans-serif" font-size="20" fill="#2b527f"><text x="390" y="372">✓ Risk checks</text><text x="390" y="411">✓ Durable state</text><text x="390" y="450">✓ Reconciliation</text></g>
+<path d="M270 379H337M623 379H691" stroke="#2876ec" stroke-width="5" fill="none" marker-end="url(#arr)"/>
+<path d="M804 456V545H487V500" stroke="#2d92e9" stroke-width="3" stroke-dasharray="8 8" fill="none" marker-end="url(#arr)"/>
+<text x="650" y="576" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" fill="#426aa1">recover instead of blindly retrying</text>
+
+<path d="M50 614H910" stroke="#c5d9f4" stroke-width="2"/>
+<text x="50" y="648" font-size="18" font-family="Arial,DejaVu Sans,sans-serif" fill="#647c9b">ORURH / ENGINEERING PROJECTS</text>
+<circle cx="895" cy="640" r="8" fill="#377ef1"/>
+</svg>
